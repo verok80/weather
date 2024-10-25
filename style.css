@@ -1,0 +1,69 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1603436455701-a2507fed0898?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    }
+    #container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(233, 200, 200, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+    }
+    #header{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    #input {
+    background-color: rgba(142, 127, 161, 0.3);
+    border-radius: 20px;
+    border: 3px solid #CDF3A2;
+    padding: 15px;
+    font-size: 20px;
+    }
+    #input:focus{
+        background-color: #fff;
+    }
+    #when-where{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #city{
+        color: #FFF;
+        font-size: 45px;
+    }
+    #date{
+        color: #FFF;
+        font-size: 24px;
+    }
+    #now{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #temperature{
+        color:#FFF;
+        font-size: 110px;
+        font-weight: bold;
+        text-shadow: 5px 10px black;
+        margin: 0;
+    }
+    #feelsLike{
+        color: #FFF;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #condition{
+        color: #FFF;
+        font-size: 32px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    #variation{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: bold;
+    }
